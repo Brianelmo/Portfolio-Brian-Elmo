@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+ 
+.front {
+  display: block;
+  white-space: nowrap;
+  border-right: 2px solid white; 
+  animation : blink 2s infinite alternate steps(19);  
+  overflow: hidden;
+} 
+
+
+@keyframes blink { 
+  from { width: 0% } 
+  to{width: 100%;} 
+}   
+
+
+@media (max-width: 1024px) { 
+
+  .list-lg{
+    display: none;
+  } 
+
+  .bg-text{
+    font-size: 5rem;
+  } 
+  
+  .text-x{
+    font-size: 2.5rem;
+    top: 1rem;
+  }
+} 
+
+@media (max-width: 768px) { 
+
+  .list-lg{
+    display: none;
+  }
+
+}
