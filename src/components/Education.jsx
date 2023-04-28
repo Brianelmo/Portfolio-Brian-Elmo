@@ -18,14 +18,14 @@ function Education() {
           title={"Front-End"}
           school={"Oracle Next Education"}
           description={
-            "Formacion en desarrollo front-end, utilizando tecnologias como JavaScipt,Css,Hmtl,Git"
+            "Training in front-end development, using technologies such as JavaScript, CSS, HTML, Git"
           }></Card>
 
         <Card
           year={"2022-2023"}
           title={"Java POO"}
           description={
-            "Formacion en desarrollo utilizando Java como lenguaje principal y MySql como backend"
+            "Training in development using Java as the main language and MySQL as the backend."
           }
           school={"Oracle Next Education"}></Card>
         <Card
@@ -33,13 +33,13 @@ function Education() {
           title={"Git"}
           school={"Oracle Next Education"}
           description={
-            "Formacion en la herramienta de control de version git"
+            "Training in the version control tool Git."
           }></Card>
         <Card
           year={"2022-2023"}
           title={"Logica de programacion"}
           description={
-            "Formacion para entender la logica de programacion, pensamiento y logica"
+            "Training to understand programming logic, thinking, and logic."
           }
           school={"Oracle Next Education"}></Card>
       </div>  
