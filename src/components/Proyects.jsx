@@ -11,7 +11,7 @@ function Proyects() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-y-7 md:w-3/4 md: m-auto">
         <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/mercadito4.png')] bg-cover bg-center flex justify-center items-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 z-10 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
+          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
               Mercadito Gamer
             </h2>
@@ -30,7 +30,7 @@ function Proyects() {
           </div>
         </div>
         <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/ipaddress.png')] bg-cover bg-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 z-10 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
+          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
               IP Address Tracker
             </h2>
@@ -48,7 +48,7 @@ function Proyects() {
           </div>
         </div>
         <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/todo1.png')] bg-cover bg-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 z-10 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
+          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
               To Do App
             </h2>
@@ -66,7 +66,7 @@ function Proyects() {
           </div>
         </div>
         <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/landigfront.png')] bg-cover bg-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 z-10 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
+          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
             Landing Page  
             </h2>

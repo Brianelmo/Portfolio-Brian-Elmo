@@ -36,7 +36,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-        <ul className="flex gap-10 text-2xl"> 
+        <ul className="flex lg:gap-10 gap-5"> 
           <li>
             <a target="_blank" href="https://github.com/Brianelmo">
               <i class="fa-brands fa-github transition ease-in hover:text-black text-3xl"></i>
