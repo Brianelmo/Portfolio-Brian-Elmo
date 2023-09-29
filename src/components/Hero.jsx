@@ -4,7 +4,7 @@ import '../css/index.css'
 function Hero() {
   return (
     <div id="Home" className="h-90 text-white lg:ml-60">
-      <div className="w-full h-screen bg-[url('/src/images/laptop.jpg')] bg-cover bg-center opacity-90 flex justify-center items-center bg-fixed">
+      <div className="w-full h-screen bg-[url('/src/images/laptop.webp')] bg-cover bg-center opacity-90 flex justify-center items-center bg-fixed">
         <div className="text-center flex flex-col items-center gap-8 font-poppins tracking-widest">
           <p className="text-4xl font-semibold">Welcome</p>
           <h1 className="text-5xl font-semibold text-blue-500">I'm Brian Elmo</h1>

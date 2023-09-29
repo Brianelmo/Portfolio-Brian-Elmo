@@ -10,7 +10,7 @@ function Proyects() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-y-7 md:w-3/4 md: m-auto">
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/mercadito4.png')] bg-cover bg-center flex justify-center items-center rounded-xl">
+        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/mercadito4.webp')] bg-cover bg-center flex justify-center items-center rounded-xl">
           <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
               Mercadito Gamer
@@ -29,7 +29,7 @@ function Proyects() {
             </a>
           </div>
         </div>
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/ipaddress.png')] bg-cover bg-center rounded-xl">
+        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/ipaddress.webp')] bg-cover bg-center rounded-xl">
           <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
               IP Address Tracker
@@ -47,25 +47,25 @@ function Proyects() {
             </a>
           </div>
         </div>
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/todo1.png')] bg-cover bg-center rounded-xl">
+        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/spotify.webp')] bg-cover bg-center rounded-xl">
           <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
-              To Do App
+              Spotify Clon
             </h2>
             <p className="text-white mb-4 cursor-default">
-            Application to register daily tasks, first project using React.
+            Spotify clone built with ReactJS and Typescript, using the Spotify API to access user data. 
             </p>
             <div className="flex gap-2">
             <i class="fa-brands fa-html5 text-2xl fa-bounce  text-orange-500"></i>
             <i class="fa-brands fa-css3-alt text-2xl fa-bounce  text-blue-500"></i>
             <i class="fa-brands fa-react fa-bounce text-blue-500"></i>
             </div>
-            <a target="_blank" className="text-white mt-2 inline-block" href="https://brianelmo.github.io/todoapp.github.io/">
+            <a target="_blank" className="text-white mt-2 inline-block" href="https://spotify-clon-ivory.vercel.app/">
               Visit Page
             </a>
           </div>
         </div>
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/landigfront.png')] bg-cover bg-center rounded-xl">
+        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/landigfront.webp')] bg-cover bg-center rounded-xl">
           <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
             <h2 className="text-white text-2xl mb-4 cursor-default">
             Landing Page  
