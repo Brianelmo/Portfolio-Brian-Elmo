@@ -17,7 +17,7 @@ function About() {
           Developer
         </h3>
         <p className="w-11/12 leading-9">
-          I am Brian Elmo, I am 19 years old. I am a developer who is starting
+          I am Brian Elmo, I am 20 years old. I am a developer who is starting
           his career as a Front-End Developer, enthusiastic about technology and
           learning. I have academic experience and personal projects that
           demonstrate the knowledge I have acquired throughout my programming
@@ -37,7 +37,7 @@ function About() {
               <span className="text-blue-500">brianelmo14@gmail.com</span>
             </li>
             <li className="border-b-2 py-4">
-              <span className="font-bold">Age</span>: 19
+              <span className="font-bold">Age</span>: 20
             </li>
             <li className="py-4">
               <span className="font-bold">From</span>: Buenos Aires, Argentina
