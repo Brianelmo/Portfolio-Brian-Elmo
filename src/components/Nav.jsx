@@ -50,8 +50,8 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://twitter.com/warnilion">
-              <i class="fa-brands fa-twitter transition ease-in hover:text-blue-400 text-3xl"></i>
+            <a target="_blank" href="https://x.com/warnidev_">
+              <i class="fa-brands fa-x-twitter transition ease-in hover:text-blue-400 text-3xl"></i>
             </a>
           </li>
           <li>

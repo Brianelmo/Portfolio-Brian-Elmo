@@ -1,87 +1,60 @@
 import React from "react";
+import ProyectCard from "./ProyectCard";
+import imagemercadito from '../images/mercadito.png'
+import ipaddres from '../images/ipaddress.webp'
+import spotify from '../images/spotify.webp'
+import landing from '../images/landigfront.webp'
 
 function Proyects() {
   return (
     <div id="Proyects" className="mb-36 lg:ml-60">
       <div className="mb-36 flex justify-center">
-        <h2 className="text-9xl uppercase opacity-5 absolute bg-text">Portfolio</h2>
+        <h2 className="text-9xl uppercase opacity-5 absolute bg-text">
+          Portfolio
+        </h2>
         <p className="text-5xl capitalize relative top-10 font-bold border-b-2 border-blue-500 text-x">
           My Work
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-y-7 md:w-3/4 md: m-auto">
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/mercadito4.webp')] bg-cover bg-center flex justify-center items-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
-            <h2 className="text-white text-2xl mb-4 cursor-default">
-              Mercadito Gamer
-            </h2>
-            <p className="text-white mb-4 cursor-default">
-              E-commerce with CRUD using Javascript, consuming data from an API
-              made by me, showing, deleting, and editing data.
-            </p> 
-            <div className="flex gap-2">
-            <i class="fa-brands fa-html5 text-2xl fa-bounce  text-orange-500"></i>
-            <i class="fa-brands fa-css3-alt text-2xl fa-bounce  text-blue-500"></i>
-            <i class="fa-brands fa-square-js text-2xl fa-bounce text-yellow-200"></i>
-            </div>
-            <a target="_blank" className="text-white mt-2" href="https://brianelmo.github.io/MercaditoGamer.github.io/">
-              Visit Page
-            </a>
-          </div>
-        </div>
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/ipaddress.webp')] bg-cover bg-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
-            <h2 className="text-white text-2xl mb-4 cursor-default">
-              IP Address Tracker
-            </h2>
-            <p className="text-white mb-4 cursor-default">
-            IP address tracker using the IPAPI API to gather data from the address.
-            </p>
-            <div className="flex gap-2">
-            <i class="fa-brands fa-html5 text-2xl fa-bounce  text-orange-500"></i>
-            <i class="fa-brands fa-css3-alt text-2xl fa-bounce  text-blue-500"></i>
-            <i class="fa-brands fa-square-js text-2xl fa-bounce text-yellow-200"></i>
-            </div>
-            <a target="_blank" className="text-white mt-2" href="https://brianelmo.github.io/IPADDRESSTRACKER.github.io/">
-              Visit Page
-            </a>
-          </div>
-        </div>
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/spotify.webp')] bg-cover bg-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
-            <h2 className="text-white text-2xl mb-4 cursor-default">
-              Spotify Clon
-            </h2>
-            <p className="text-white mb-4 cursor-default">
-            Spotify clone built with ReactJS and Typescript, using the Spotify API to access user data. 
-            </p>
-            <div className="flex gap-2">
-            <i class="fa-brands fa-html5 text-2xl fa-bounce  text-orange-500"></i>
-            <i class="fa-brands fa-css3-alt text-2xl fa-bounce  text-blue-500"></i>
-            <i class="fa-brands fa-react fa-bounce text-blue-500"></i>
-            </div>
-            <a target="_blank" className="text-white mt-2 inline-block" href="https://spotify-clon-ivory.vercel.app/">
-              Visit Page
-            </a>
-          </div>
-        </div>
-        <div className="w-11/12 md:w-11/12 h-80 bg-[url('/src/images/landigfront.webp')] bg-cover bg-center rounded-xl">
-          <div className="fondo w-full h-80 flex flex-col justify-center backdrop-brightness-50 px-2 opacity-0 hover:opacity-100 transition-all rounded-xl">
-            <h2 className="text-white text-2xl mb-4 cursor-default">
-            Landing Page  
-            </h2>
-            <p className="text-white mb-4 cursor-default">
-            Landing Page using only HTML and CSS, I made this page to practice web design concepts.
-            </p>
-            <div className="flex gap-2">
-            <i class="fa-brands fa-html5 text-2xl fa-bounce  text-orange-500"></i>
-            <i class="fa-brands fa-css3-alt text-2xl fa-bounce  text-blue-500"></i>
-            </div>
-            <a target="_blank" className="text-white mt-2" href="https://brianelmo.github.io/landingpage-frontendmentor.github.io/">
-              Visit Page
-            </a>
-          </div>
-        </div>
+        <ProyectCard
+          title="Mercadito Gamer"
+          text_card={
+            "e-commerce made in reactjs and with backend in nodejs with express, with shopping cart and chat bot"
+          }
+          link_project={"https://mercaditogamer.netlify.app/"}
+          url_image={imagemercadito}
+        />
+        <ProyectCard
+          title={"IP Address Tracker"}
+          text_card={
+            "IP address tracker using the IPAPI API to gather data from the address."
+          }
+          link_project={
+            "https://brianelmo.github.io/IPADDRESSTRACKER.github.io/"
+          }
+          url_image={ipaddres}
+          invisible={'invisible'}
+        />
+        <ProyectCard
+          title={"Spotify Clon"}
+          text_card={
+            "Spotify clone built with ReactJS and Typescript, using the Spotify API to access user data."
+          }
+          link_project={"https://spotify-clon-ivory.vercel.app/"}
+          url_image={spotify}
+        />
+        <ProyectCard
+          title={"Landing Page"}
+          text_card={
+            "Landing Page using only HTML and CSS, I made this page to practice web design concepts."
+          }
+          link_project={
+            "https://brianelmo.github.io/landingpage-frontendmentor.github.io/"
+          }
+          url_image={landing}
+          invisible={'invisible'}
+        />
       </div>
     </div>
   );
